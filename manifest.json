@@ -1,0 +1,14 @@
+{
+  "name": "narrow_pantip",
+  "description": "A basic add-on that changes pantip's topic content style to be narrower, more comfortable for reading.",
+  "version": "0.1",
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.pantip.com/topic/*"],
+      "css": ["styles.css"]
+    }
+  ],
+
+  "manifest_version": 2
+}
